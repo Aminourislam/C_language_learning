@@ -4,7 +4,7 @@ int main()
 {
     // int a;
     // a = 10;
-    int a = 10;
+    int a =  10;
 
     // float b;
     // b = 1.4;
