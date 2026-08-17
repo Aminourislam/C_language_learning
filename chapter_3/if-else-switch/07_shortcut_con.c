@@ -10,7 +10,7 @@ int main()
     printf("Enter the valuc of b : ");
     scanf("%d", &b);
     // condition? expression-if-true : expression-if-false
-    a>b?printf("a is greater! \n"):printf("b is greater!\n");
+    a > b ? printf("a is greater! \n") : printf("b is greater!\n");
 
     return 0;
 }

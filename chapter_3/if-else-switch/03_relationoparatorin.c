@@ -3,7 +3,7 @@
 int main()
 {
     int num;
-    printf("Enter your febarate number: ");
+    printf("Enter your fevarate number: ");
     scanf("%d", &num);
     if (num == 2)
     {
