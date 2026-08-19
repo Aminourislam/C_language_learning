@@ -3,7 +3,7 @@
 int main()
 {
     int marks[4];                                                  // Array to store marks for 4 subjects
-    char grade[4][3];                                              // Array to store grade for each subject
+    char grade[4][3]; //this is string arry where syntex is arr_name[each_string_size][number_of_string]
     float gpa[4];                                                  // Array to store GPA for each subject
     float totalGPA = 0.0;                                          // Variable to calculate total GPA
     int anyFail = 0;                                               // Flag to check if any subject has GPA 0.0
@@ -111,7 +111,7 @@ int main()
     // Output the grade and GPA for each subject
     printf("\n");
 
-    printf("Result or each subject. \n \n");
+    printf("Result of each subject. \n \n");
     for (int i = 0; i < 4; i++)
     {
         printf("%s: Grade: %s, GPA: %.1f\n", subjects[i], grade[i], gpa[i]);
