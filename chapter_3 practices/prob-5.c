@@ -1,12 +1,13 @@
 #include <stdio.h>
 
-int main(){
+int main()
+{
     // check entered character is lowercase or not
     char ch;
     printf("Enter a character : ");
     scanf("%c", &ch);
     // printf("The value of character is %d\n", ch);
-    if ( ch >= 97 && ch<=122)
+    if (ch >= 97 && ch <= 122)
     {
         printf("The character is lowercase\n");
     }
