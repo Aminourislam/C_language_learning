@@ -1,5 +1,6 @@
-#include<stdio.h>
-int main(){
+#include <stdio.h>
+int main()
+{
     int num;
     printf("Enter a number = ");
     scanf("%d", &num);
@@ -12,5 +13,4 @@ int main(){
         }
         printf("%d\n", i);
     }
-    
 }

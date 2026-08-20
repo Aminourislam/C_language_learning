@@ -1,11 +1,7 @@
 #include <stdio.h>
 
 // Function proto_type
-int function_name(int a, int b)
-{
-    int value = a % b;
-    return value;
-}
+int function_name(int a, int b);
 
 // Function defination
 int sum(int x, int y)
@@ -34,11 +30,11 @@ int main()
 
     // Function calling
     int multiplication;
-    multiplication = multi(2, 33); //function call
-    
+    multiplication = multi(2, 33); // stroring returned value in a varable
+
     printf("The multi is %d\n", multiplication);
 
-// void kisu return kore na ja ase vitore tai dai
+    // void kisu return kore na ja ase vitore tai dai
     faltu();
 
     return 0;

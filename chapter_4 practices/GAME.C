@@ -21,10 +21,9 @@ int main()
         {
             printf("Bigger number please \n");
         }
-        
-        number_of_guess ++;
 
-        
+        number_of_guess++;
+
     } while (RandomNumber != guesd_num);
     printf("You guesed the number in %d guess\n", number_of_guess);
     printf("The random number is %d\n", RandomNumber);

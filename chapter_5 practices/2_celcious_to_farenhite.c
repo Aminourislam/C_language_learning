@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-float ctof(float);
-float ctof(float c)
+float C_to_F(float);
+float C_to_F(float c)
 {
     return ((c * 9) / 5) + 32;
 }
 
-float ftoc(float f)
+float F_to_C(float f)
 {
     return ((f - 32) * 5) / 9;
 }
@@ -28,12 +28,12 @@ int main()
     case 1:
         printf("Enter a temperature in Celsius: ");
         scanf("%f", &c);
-        printf("%.2f C = %.2f F\n", c, ctof(c));
+        printf("%.2f C = %.2f F\n", c, C_to_F(c));
         break;
     case 2:
         printf("Enter a temperature in Fahrenheit: ");
         scanf("%f", &f);
-        printf("%.2f F = %.2f C\n", f, ftoc(f));
+        printf("%.2f F = %.2f C\n", f, F_to_C(f));
         break;
     }
 

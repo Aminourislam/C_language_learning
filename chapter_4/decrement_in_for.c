@@ -4,7 +4,7 @@ int main()
     int num;
     printf("Enter a number = ");
     scanf("%d", &num);
-    for (int i = num; i ; i--)
+    for (int i = num; i; i--)
     {
         printf("%d\n", i);
     }

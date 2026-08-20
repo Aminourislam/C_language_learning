@@ -1,6 +1,7 @@
-#include<stdio.h>
-int main(){
-    int num,e;
+#include <stdio.h>
+int main()
+{
+    int num, e;
     printf("Enter a number = ");
     scanf("%d", &num);
     e = 10;
@@ -10,9 +11,9 @@ int main(){
         {
             continue;
         }
-        
+
         printf("The number is %d\n", i);
     }
     printf("This is continue statement");
-return 0;
+    return 0;
 }
