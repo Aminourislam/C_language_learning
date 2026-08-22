@@ -11,5 +11,6 @@ int main()
     {
         printf("I am not 11\n");
     }
+    printf("%d", a);
     return 0;
 }
